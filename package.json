@@ -1,0 +1,18 @@
+{
+  "name": "chatgpt-sol-high-userscript",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Select GPT-5.6 Sol and High on empty new ChatGPT chats with Tampermonkey.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XingyuLin0/chatgpt-sol-high-userscript.git"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "node --check chatgpt-5.6-sol-high.user.js",
+    "test": "node tests/userscript.test.cjs"
+  }
+}
